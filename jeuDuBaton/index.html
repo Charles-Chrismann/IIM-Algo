@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="modal">
+        <div class="modalContent">
+            <p><span id="winner"></span> is winner</p>
+        </div>
+    </div>
+    <header>
+        <label for="numBattons">Nombre de Batons</label>
+        <input type="number" name="numBattons" id="numBattons">
+        <button type="button" id="submitForm">Valider</button>
+    </header>
+    <main></main>
+    <footer>
+        <div class="footerBot">
+            
+        <p>Current player : <span class="player">P1</span></p>
+            <p class="selectedP">
+                Selected :
+                <span class="numberSelected"></span>
+            </p>
+            <button type="button" id="nextTurn">Next Turn</button>
+        </div>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
